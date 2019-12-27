@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "react-app",
+        "eslint-config-prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2019
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "no-console": "off"
+    }
+}
